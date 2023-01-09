@@ -279,6 +279,7 @@
 
     @include respondTo('diapason') {
       gap: 32px;
+      margin-left: -33px;
     }
   }
 
@@ -302,12 +303,19 @@
   }
 
   &--left {
-    @include respondTo('ditonus') {
+    @include respondTo('tritonus') {
       margin-left: -15px;
     }
 
     @include respondTo('diapente') {
       margin-right: 0;
     }
+  }
+}
+
+.interactive--details.interactive--right {
+
+  @include respondTo('diapason') {
+    margin-right: -33px;
   }
 }

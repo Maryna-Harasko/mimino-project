@@ -22,9 +22,9 @@
   }
 
   // Тіні слайдів, які відображаються та прозорість наступного слайду на мобілці
-  & .swiper-slide-active {
-    box-shadow: 2px 2px 60px 2px transparentize(getColor('primary'), 0.75); // rgba(0, 0, 0, 0.25)
-  }
+  // & .swiper-slide-active {
+  //   // box-shadow: 2px 2px 60px 2px transparentize(getColor('primary'), 0.75); // rgba(0, 0, 0, 0.25)
+  // }
 
   & .swiper-slide-next {
     box-shadow: 2px 2px 60px 2px transparentize(getColor('primary'), 0.75); // rgba(0, 0, 0, 0.25)
